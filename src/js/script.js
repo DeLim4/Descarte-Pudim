@@ -68,6 +68,21 @@
           "Belga no belga",
         
     ],
+    boloCaseiro:[
+      "Laranja",
+      "Cenoura c/ chocolate",
+      "Chocolate c/ chocolate",
+      "Fubá c/ goiabada",
+      "Fubá",
+      "Milho",
+"RedVelvet",
+
+    ],
+      caldas:[
+        "Chocolate',
+        "Goiabada",
+        "Chocolate Branco",
+      ]
    
   };
 
