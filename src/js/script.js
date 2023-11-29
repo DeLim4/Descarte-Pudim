@@ -78,11 +78,11 @@
 "RedVelvet",
 
     ],
-      Caldas:[
-        "Chocolate',
-        "Goiabada",
-        "Chocolate Branco",
-      ]
+Caldas:[
+  "Chocolate",
+  "Goiabada",
+  "Chocolate Branco",
+],
    
   };
 
