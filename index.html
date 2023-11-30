@@ -7,9 +7,9 @@
     <title>Produtos Descartados</title>
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alata&family=Encode+Sans+Semi+Condensed:wght@100;500;700&family=Fraunces:ital,wght@1,400;1,500;1,600&family=Hanken+Grotesk:ital,wght@0,100;0,200;1,100&family=Inter:wght@400;500&family=Josefin+Sans:ital,wght@0,100;1,100;1,300&family=Lato:wght@300;400;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,100&family=Noto+Serif:wght@100;300&family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@100;300;500&family=Roboto:wght@100;300;500;700&family=Russo+One&family=Water+Brush&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Encode+Sans+Semi+Condensed:wght@100;500;700&family=Fraunces:ital,wght@1,400;1,500;1,600&family=Hanken+Grotesk:ital,wght@0,100;0,200;1,100&family=Inter:wght@400;500&family=Josefin+Sans:ital,wght@0,100;1,100;1,300&family=Lato:wght@300;400;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,100&family=Noto+Serif:wght@100;300&family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@100;300;500&family=Roboto:wght@100;300;500;700&family=Russo+One&family=Water+Brush&display=swap" rel="stylesheet">
+   
 </head>
 
 <body>
@@ -23,7 +23,7 @@
         <label for="selecionarLocal">Local:</label>
         <select id="selecionarLocal" required>
             <option value="Vargas"> - </option>
-         <option value="Vargas">Sede - Campo Belo</option>
+            <option value="Vargas">Sede - Campo Belo</option>
             <option value="Vargas">Vargas - SBC</option>
             <option value="Acre">Acre - Mooca</option>
             <option value="Dino">Dino - Centro</option>
@@ -39,19 +39,15 @@
             <option value="pudins1Kg">Pudins 1Kg</option>
             <option value="bebidas">Bebidas</option>
             <option value="bolos">Bolos</option>
-            <option value="brownie">Brownie</option>
+            <option value="bolos">Brownie</option>
             <option value="brigadeiro">Brigadeiros</option>
             <option value="coxinha">Coxinhas</option>
-            <option value="boloCaseiro">Bolo Caseiro</option>
-            <option value="Caldas">Calda</option>
-
-           
         </select>
         <br>
 
         <label for="selecionarProduto">Selecione o Produto:</label>
         <select id="selecionarProduto" required>
-          
+
         </select>
         <br>
 
@@ -60,19 +56,29 @@
         <br>
         <button type="button" onclick="adicionarProduto()">Adicionar Produto</button>
     </form>
-<div class="listaProdutos">
-    <h2>Lista de Produtos Descartados</h2>
-    <ul id="listaProdutos"></ul>
+    <div class="listaProdutos" id="listaProdutos">
+        <h2>Lista de Produtos Descartados</h2>
+        <ul id="listaProdutosUl"></ul>
 
-    <button type="button" onclick="copiarParaWhatsApp()">Copiar para o WhatsApp</button></div>
+        <button type="button" onclick="copiarParaWhatsApp()">Copiar para o WhatsApp</button>
+    </div>
 
-    </form>
+    <!-- Adicione este bloco para a tabela -->
+    <table id="tabelaProdutos">
+        <thead>
+            <tr>
+                <th>Local</th>
+                <th>Produto</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody id="corpoTabelaProdutos"></tbody>
+    </table>
 
+    <!-- Adicione este botão abaixo do botão existente -->
+    <button type="button" onclick="alternarVisualizacao()">Alternar Visualização</button>
 
-
-
-    <script src="src/js/script.js">
-
+    <script src="./src/js/script.js">
     </script>
 
 </body>
