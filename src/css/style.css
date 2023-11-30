@@ -63,4 +63,20 @@ border-radius: 15px;
 }
 
 
+#tabelaProdutos {
+    display: none;
+border-collapse: collapse;
+width: 100%;
+margin: 20px auto;
+}
+
+#tabelaProdutos th, #tabelaProdutos td {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+#tabelaProdutos th {
+background-color: #132941;
+color: white;}
 
