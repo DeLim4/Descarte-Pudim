@@ -68,7 +68,7 @@
           "Belga no belga",
 
       ],
-      caseiros: [
+      caseiro: [
           "Laranja",
           "Milho",
           "Fuba",
