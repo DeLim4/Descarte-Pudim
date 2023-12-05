@@ -68,7 +68,20 @@
           "Belga no belga",
 
       ],
+      caseiros: [
+          "Laranja",
+          "Milho",
+          "Fuba",
+          "Red Velvet",
+           "Cenoura",
+           "Chocolate",
 
+      ],
+cobertura: [
+          "goiabada ",
+          "chocolate branco",
+          "chocolate",
+          
   };
 
   // Adicionar um ouvinte de eventos para o tipo de produto
