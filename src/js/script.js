@@ -81,6 +81,7 @@ cobertura: [
           "goiabada ",
           "chocolate branco",
           "chocolate",
+          ],
           
   };
 
